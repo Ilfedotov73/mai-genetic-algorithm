@@ -1,0 +1,23 @@
+[project]
+name = "mai4"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "Fedotov Ilia",email = "ilfedotov.04@icloud.com"}
+]
+readme = "README.md"
+requires-python = "3.12.5"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+jupyter = "^1.1.1"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+pygad = "^3.4.0"
+matplotlib = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
